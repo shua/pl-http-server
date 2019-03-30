@@ -1,7 +1,7 @@
 running
 -------
 
-	swipl app.pl
+	$ swipl app.pl
 	?- app.
 
 options
@@ -9,7 +9,7 @@ options
 
 you can define a fact
 
-	server_opts(serial(true)).
+	server:options(serial(true)).
 
 to make it run on a single thread, easier for debugging
 
